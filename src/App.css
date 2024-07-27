@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+body{
+  background-color: #ebebff;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.regbtn:hover{
+    background: #ebebff;
+    transition: .2s;
+    transform:scale(1.1);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#profile{
+  width: 3vw;
+  height: 3vw;
+  background-size:contain;
+  background-repeat: no-repeat;
+  border-radius: 50px;
+  border: 5px solid rgb(255, 255, 255);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#profile:hover{
+    transform: scale(1.1);
+    transition: .1s;
+    cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.profpic{
+  background-size: contain;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#proset:hover{
+  visibility: visible;
+}
+.card{
+  cursor: pointer;
+}
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.314);
+  transition: .3s;
 }
